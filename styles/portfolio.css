@@ -11,7 +11,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .nav-titel{
   
@@ -40,4 +40,27 @@ nav li{
 
 .text-primary{
     color: #FD6F0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+}
+/* bannar styles */
+.bannar{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.bannar-titel{
+    font-weight: 700;
+    font-size: 85px;
+}
+.bannar-sub-titel{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.bannar-descriptson{
+    color: #757575;
+    margin-bottom: 30px;
 }
