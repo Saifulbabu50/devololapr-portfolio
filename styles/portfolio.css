@@ -43,13 +43,15 @@ nav li{
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
 }
 /* bannar styles */
 .bannar{
     display: flex;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 250px;
 }
 .bannar-titel{
     font-weight: 700;
@@ -63,4 +65,23 @@ nav li{
 .bannar-descriptson{
     color: #757575;
     margin-bottom: 30px;
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+}
+/* about section styles */
+.about{
+    margin: 130px;
+    background: #FFF8F3;
+    border-radius: 10;
+}
+.section-titel{
+
+}
+.section-descriptson{
+
 }
