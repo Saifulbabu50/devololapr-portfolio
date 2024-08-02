@@ -145,6 +145,8 @@ main{
     color:#474747 ;
     font-weight: 700;
     font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .resume .sub-titel{
     color:#757575 ;
@@ -153,4 +155,32 @@ main{
 }
 .resume .descriptson{
     color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+
+.contacts{
+    
+    display:flex;
+    gap: 0px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    
+    
+}
+.contacts .section-titel{
+    
+    text-align: left;
+    
+}
+.contacts .input , textarea{
+    
+    margin-bottom: 14px;
 }
